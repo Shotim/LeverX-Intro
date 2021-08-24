@@ -2,7 +2,8 @@
 
 ## Important information:
 1) You can find some useful materials in [Materials.md](materials/Materials.md);
-2) Pay attention to the file [Self-check.md](Self-check.md)
+2) Pay attention to the file [Self-check.md](Self-check.md);
+3) You are able to use Lombok.
 
 ## Task description:
 You have to implement **tasks given below** using **Java 8+ Stream API**.

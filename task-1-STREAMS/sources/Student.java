@@ -1,7 +1,7 @@
 class Student{
 
-    Map<String, Integer> rating;
-    String name;
+    private Map<String, Integer> rating;
+    private String name;
 
     public Student(String name){
         rating = new HashMap<>();
