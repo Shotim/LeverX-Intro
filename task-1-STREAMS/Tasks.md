@@ -19,8 +19,9 @@ You have to implement **tasks given below** using **Java 8+ Stream API**.
     Physics: (Andrew: 9, Dan: 8)
     ```
 5) Group models from 2 task by any 4 parameters.
-6) Considering strings such as: a = "aaabbxxxxxtx" b = "p1p1p1p". Implement func(string) that returns the most common character, and the number of times it appears in the string passed as single argument. print func(a)
-    ```
+6) Considering strings such as: a = "aaabbxxxxxtx" b = "p1p1p1p". Implement func(string) that returns the most common character, and the number of times it appears in the string passed as single argument.
+    ``` 
+    print func(a)
     ["x", 6]
     print func(b)
     ["p", 4]
