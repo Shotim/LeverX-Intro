@@ -28,3 +28,6 @@ You have to implement **tasks given below** using **Java 8+ Stream API**.
     ["p", 4]
     ```
 7) Find best matching person. For example, if someone is looking for English with more than 50% proficiency then we need to search for Person whose proficiency is more than 50%. In [this](sources/Person.txt) file there is Gnanesh who has 100% proficiency in English. If none of the Person meets Given threshold (Case for Kannada in above example) then find Technician who is best among rest ie Suresh in the above case (40%). System should be bookkeeping i.e. if we book a slot then it must not be offered again. Use [this](sources/Person.txt) file. 
+
+## Deadline:
+**3** days
