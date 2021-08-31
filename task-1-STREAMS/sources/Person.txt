@@ -1,0 +1,103 @@
+public static void main(String... args) {
+   List<Person> persons = new ArrayList<>();
+
+   persons.add(new Person(1L, "Lokesh", new Skill("English", 10),
+           new Skill("Kannada", 20), new Skill("Hindi", 10)));
+
+   persons.add(new Person(2L, "Mahesh", new Skill("English", 10),
+           new Skill("Kannada", 30), new Skill("Hindi", 50)));
+
+   persons.add(new Person(3L, "Ganesh", new Skill("English", 10),
+           new Skill("Kannada", 20), new Skill("Hindi", 40)));
+
+   persons.add(new Person(4L, "Ramesh", new Skill("English", 10),
+           new Skill("Kannada", 20), new Skill("Hindi", 40)));
+
+   persons.add(new Person(5L, "Suresh", new Skill("English", 10),
+           new Skill("Kannada", 40), new Skill("Hindi", 40)));
+
+   persons.add(new Person(6L, "Gnanesh", new Skill("English", 100),
+           new Skill("Kannada", 20), new Skill("Hindi", 40)));
+
+   System.out.println(findBestMatchingPerson(persons, new Skill("English", 50), new Skill("Kannada", 50),
+           new Skill("Urdu", 50), new Skill("Hindi", 50)));
+   //OutPut: ["English" : "Gnanesh", "Kannada" : "Suresh", "Urdu": null, "Hindi": "Mahesh"]
+}
+
+public class Person {
+   private Long personId;
+
+   private String name;
+
+   private List<Skill> skills;
+
+   public Person(Long personId, String name, Skill... skills) {
+       this.personId = personId;
+       this.name = name;
+       this.skills = Arrays.asList(skills);
+   }
+
+   public Long getPersonId() {
+       return personId;
+   }
+
+   public void setPersonId(Long personId) {
+       this.personId = personId;
+   }
+
+   public String getName() {
+       return name;
+   }
+
+   public void setName(String name) {
+       this.name = name;
+   }
+
+   public List<Skill> getSkills() {
+       return skills;
+   }
+
+   public void setSkills(List<Skill> skills) {
+       this.skills = skills;
+   }
+
+   @Override
+   public String toString() {
+       return name;
+   }
+}
+
+public class Skill {
+   private String name;
+
+   private long knownPercentage;
+
+   public Skill(String name, long knownPercentage) {
+       this.name = name;
+       this.knownPercentage = knownPercentage;
+   }
+
+   public String getName() {
+       return name;
+   }
+
+   public void setName(String name) {
+       this.name = name;
+   }
+
+   public long getKnownPercentage() {
+       return knownPercentage;
+   }
+
+   public void setKnownPercentage(long knownPercentage) {
+       this.knownPercentage = knownPercentage;
+   }
+
+   @Override
+   public String toString() {
+       return "Skill{" +
+               "name='" + name + '\'' +
+               ", knownPercentage=" + knownPercentage +
+               '}';
+   }
+}
