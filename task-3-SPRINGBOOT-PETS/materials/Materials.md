@@ -1,1 +1,3 @@
 Markdown
+Bean scopes
+Hibernate
