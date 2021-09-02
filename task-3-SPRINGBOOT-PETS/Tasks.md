@@ -20,13 +20,16 @@
    (either as a link at README.md or as a file in directory 'postman' in the root of your project).
 5. **Stick database schema** to README.md as pictures or as a link.
 6. Feel free to place any important info in README.md.
-8. Use **DTO objects** for transfer data from server to client and vise versa. (Check [Materials.md](/task-3-SPRINGBOOT-PETS/materials/Materials.md))
-9. Use **Spring DATA JPA** for repositories layer.
-10. Investigate **Hibernate Inheritance Strategies**.
+7. Use **DTO objects** for transfer data from server to client and vise versa. (Check [Materials.md](/task-3-SPRINGBOOT-PETS/materials/Materials.md))
+8. Use **Spring DATA JPA** for repositories layer.
+9. Investigate **Hibernate Inheritance Strategies**. 
+10. Be able to **explain** why you prefer one Hibernate inheritance strategy 
+or another in your project.
 11. Investigate **Hibernate Entity Lifecycle**.
-12. Provide **validation** for the domain model
+12. Investigate **Spring Bean Scopes**.
+13. Provide **validation** for the domain model
     and create **own exceptions** if your business logic requires it.
-13. Create **dev and cloud profiles**.
+14. Create **dev and cloud profiles**.
 
 <h2> Task "Pet service": </h2>
 
