@@ -10,4 +10,4 @@
 10. Describe a server behaviour when a request is sent to the server?
 11. What is the JSP? And what is the difference to HTML?
 12. What are forward() and sendRedirect() methods? Difference?
-13. What is the ServletContext and ServletConfig? What is the purpose of them?
+13. What is the ServletContext and ServletConfig? What's their purpose?
